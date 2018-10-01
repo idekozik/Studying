@@ -37,6 +37,6 @@ int main() {
 			cout<<"x="<<x<<" F="<<Fi<<endl;
 		}
 		x+=dX;
-		}
-		return 0;
+	}
+	return 0;
 }
