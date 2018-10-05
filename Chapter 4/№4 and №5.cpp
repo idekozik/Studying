@@ -31,6 +31,6 @@ int main(){
 		cout<<i+1<<": Name "<<birds[i].name<<
 		" Weight= "<<birds[i].weight<<" Diameter= "<<birds[i].diameter<<endl;
 	}
-	delete birds;
+	delete [] birds;
 	return 0;
 }
