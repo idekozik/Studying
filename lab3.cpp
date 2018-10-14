@@ -56,6 +56,8 @@ int main(){
 			cout<<array[i][j];
 		cout<<" "<<sumArray[i]<<" "<<endl;
 	}
-		
+	
+	delete [] array;
+	delete [] sumArray;
 	return 0;
 }
