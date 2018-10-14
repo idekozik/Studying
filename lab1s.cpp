@@ -12,9 +12,9 @@ int main() {
 	cin>>xst>>xfn>>dx;
 
 	x=xst;
-	ac=a;
-	bc=b;
-	cc=c;
+	ac=floor(a);
+	bc=floor(b);
+	cc=floor(c);
 	while (x<=xfn){
 		if (x+5<0 && c==0){
 			F=1/(a*x)-b;
