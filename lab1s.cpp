@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -33,8 +34,7 @@ int main() {
 			cout<<"x="<<x<<" F="<<F<<endl;
 		}
 		else{
-			int Fi=F;
-			cout<<"x="<<x<<" F="<<Fi<<endl;
+			cout<<"x="<<x<<" F="<<floor(F)<<endl;
 		}
 		x+=dX;
 	}
