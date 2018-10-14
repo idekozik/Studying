@@ -7,13 +7,9 @@ int main() {
 	int x,xst,xfn,dX,ac,bc,cc;
 
 	cout<<"a, b, c="<<endl;
-	cin>>a;
-	cin>>b;
-	cin>>c;
+	cin>>a>>b>>c;
 	cout<<"xst, xfn, dX="<<endl;
-	cin>>xst;
-	cin>>xfn;
-	cin>>dX;
+	cin>>xst>>xfn>>dx;
 
 	x=xst;
 	ac=a;
