@@ -54,5 +54,7 @@ int main(){
 			cout<<mass[i][j]<<" ";
 		cout<<endl;
 	}
+	
+	delete [] array;
 	return 0;
 }
