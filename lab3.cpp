@@ -17,7 +17,7 @@ int main(){
 	for(int i=0; i<nstb; i++)
 		for(int j=0; j<nstr; j++){
 			cin>>array[i][j];
-			if(i%2==0 && array[i][j]>0) sumArray[i] += array[i][j];
+			if(j%2==0 && array[i][j]>0) sumArray[i] += array[i][j];
 		}
 	for(int i=0; i<nstb; i++){
 		for(int j=0; j<nstr; j++)
