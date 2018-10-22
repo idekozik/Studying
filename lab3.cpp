@@ -38,20 +38,20 @@ int main(){
 	int temp;
 	int* tempStb;
 	for (int i=0; i<nstr-1; i++){
-    	for (int j=0; j<nstr-i-1; j++){
-            if (sumArray[j]<sumArray[j+1]){
-                temp=sumArray[j];
-                sumArray[j]=sumArray[j+1];
-                sumArray[j+1]=temp;
+    		for (int j=0; j<nstr-i-1; j++){
+        		if (sumArray[j]<sumArray[j+1]){
+                		temp=sumArray[j];
+                		sumArray[j]=sumArray[j+1];
+                		sumArray[j+1]=temp;
                 
-                tempStb=array[j];
+                		tempStb=array[j];
 				array[j]=array[j+1];
 				array[j+1]=tempStb;      
 			}
-        }
-    }
+       		}
+    	}
     
-    for(int i=0; i<nstb; i++){
+    	for(int i=0; i<nstb; i++){
 		for(int j=0; j<nstr; j++)
 			cout<<array[i][j];
 		cout<<" "<<sumArray[i]<<" "<<endl;
