@@ -9,7 +9,7 @@ int main() {
 	cout<<"a, b, c="<<endl;
 	cin>>a>>b>>c;
 	cout<<"xst, xfn, dX="<<endl;
-	cin>>xst>>xfn>>dx;
+	cin>>xst>>xfn>>dX;
 
 	x=xst;
 	ac=floor(a);
