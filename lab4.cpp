@@ -9,7 +9,7 @@ float findexp(int x1, int y1, int x2, int y2, int x3, int y3){
 	float length2 = sqrt(pow(x2-x3,2)+pow(y2-y3,2));
 	float length3 = sqrt(pow(x1-x3,2)+pow(y1-y3,2));
 	
-	float squareTriangle = 0.5*((x3-x1)*(y2-y1)-(y3-y1)*(x2-x1));
+	float squareTriangle = abs(0.5*((x3-x1)*(y2-y1)-(y3-y1)*(x2-x1)));
 	float radius = (length1*length2*length3)/(4*squareTriangle);
 	float squareCircle = 3.14*pow(radius,2);
 	
