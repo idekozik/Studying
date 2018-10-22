@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-	int size,modMin,modMax,sum,minI=0,maxI=0,comp=1;
+	int size,modMin,modMax,sum=0,minI=0,maxI=0,comp=1;
 	cout<<"size=";
 	cin>>size;
 	int* array = new int[size];
